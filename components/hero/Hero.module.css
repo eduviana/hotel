@@ -1,0 +1,29 @@
+.hero {
+    grid-area: hero;
+    background-image: url("../../public/header/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 86vh;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .promotion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  .promotion h2 {
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bold;
+  }
+  
+  .promotion h3 {
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 400;
+  }
+  

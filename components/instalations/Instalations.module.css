@@ -1,0 +1,77 @@
+.instalations {
+  grid-area: instalations;
+}
+
+.instalationsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.7fr));
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.instalationCard {
+  display: flex;
+  flex-direction: column;
+  flex: 20%;
+  gap: 2rem;
+  background-color: #1e2e3b;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.instalationCard img {
+  width: 10%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  background-color: var(--cardTitle-color);
+}
+
+.instalationCard h5 {
+  font-size: 1.2rem;
+}
+
+.instalationCard p {
+}
+
+.iconContainer {
+  background-color: var(--title-color);
+  color: var(--white);
+  width: 3rem;
+  height: 3rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 7px 10px grey;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.titleContainer h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--title-color);
+}
+
+.titleContainer p {
+  color: var(--subtitle-color);
+  font-weight: 300;
+  max-width: 450px;
+  line-height: 1.6rem;
+}

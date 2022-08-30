@@ -1,0 +1,79 @@
+.footer {
+    grid-area: footer;
+    background-color: var(--title-color);
+    margin-top: 6rem;
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    padding: 6rem 0;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.logoContainer p {
+    color:var(--white);
+
+}
+
+.socialMedia {
+    display: flex;
+    gap: 1rem;
+    align-self: flex-start;
+    height: 2rem;
+    font-size: 2.5em;
+}
+
+.services{
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
+
+.services ul {
+    
+    display: flex;
+flex-direction: column;
+gap: .5rem;
+}
+
+.services h4{
+    font: bold;
+    font-size: 1.2rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.contacts h4 {
+    font: bold;
+    font-size: 1.2rem;
+}
+
+.mail,
+.cel,
+.address {
+    display: flex;
+    gap: .5rem;
+} 
+
+
+@media (max-width:768px) {
+    .footerContainer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6rem;
+    }
+}

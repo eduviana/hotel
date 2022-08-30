@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --title-color: #006ae8;
+  --subtitle-color: #9db3ce;
+  --cardTitle-color: #006ae8;
+  --cardPrice-color: #9db3ce;
+  --bg-color: #222526;
+  --white: #ffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, auto);
+  grid-template-areas:
+    "header          header         header"
+    "hero            hero           hero"
+    "departmens      departmens     departmens"
+    "slider          slider         slider"
+    "instalations   instalations  instalations"
+    "gallery         gallery        gallery"
+    "reviews         reviews        reviews"
+    "footer          footer         footer";
+}
+
+.contenedor > * {
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
